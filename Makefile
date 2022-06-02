@@ -19,7 +19,7 @@ FULL    := $(shell bin/get_version.sh --full)
 # installed scripts, or leave empty to keep the current interpreter.
 export LCOV_PERL_PATH := /usr/bin/perl
 
-PREFIX  := /usr/local
+PREFIX  := /usr
 
 CFG_DIR := $(PREFIX)/etc
 BIN_DIR := $(PREFIX)/bin
